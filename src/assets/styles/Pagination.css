@@ -1,0 +1,28 @@
+.pageNumbers li {
+    padding: 3px 8px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    border: 1px solid #E4E7E3;
+    cursor: pointer;
+}
+
+.pageNumbers li.active{
+    background-color: #2091EE;
+    color: #ffffff;
+}
+
+.pageNumbers li button {
+    background-color: transparent;
+    color: #3F4756;
+    border: none;
+    cursor: pointer;
+}
+
+.pageNumbers li button:hover {
+    background-color: white;
+    color: #2091EE;
+}
+
+.pageNumbers li button:focus {
+    outline: none;
+}

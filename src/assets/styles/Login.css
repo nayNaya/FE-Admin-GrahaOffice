@@ -1,0 +1,40 @@
+.logoLogin {
+    height: 100%;
+}
+
+.divContent {
+    /* //height: 100vh; */
+}
+
+.form{
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    /* height: 80%; */
+    /* position: absolute; */
+}
+
+.inputField {
+    position: relative;
+}
+
+#toggle {
+    position: absolute;
+    top: 70%;
+    right: 50px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#iconPassword{
+    position: absolute;
+    top: 50%;
+    right: 1000px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#Icon {
+    position: absolute;
+    top: 68%;
+    left: 15px;
+    transform: translateY(-50%);
+}
