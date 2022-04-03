@@ -6,7 +6,7 @@ import CardBody from '@material-tailwind/react/CardBody';
 import PopUpModal from './PopUpModal';
 import Table from "./Table";
 import '../../../assets/styles/Pagination.css';
-import { NEWS } from "../../utils/Url";
+import { SERVICE } from "../../utils/Url";
 import { getToken, logout } from '../../utils/Auth';
 import axios from 'axios';
 

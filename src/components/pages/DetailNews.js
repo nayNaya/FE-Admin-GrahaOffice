@@ -4,7 +4,7 @@ import TableCard from './components/MessageTableCard';
 import '../../assets/styles/Components.css';
 import Sidebar from "./components/Sidebar";
 import Tabs from "./components/ComponentTab";
-import { NEWS } from "../utils/Url";
+import { SERVICE } from "../utils/Url";
 import { getToken, logout } from '../utils/Auth';
 import axios from 'axios';
 

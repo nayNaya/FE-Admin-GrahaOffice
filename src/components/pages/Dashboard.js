@@ -4,7 +4,7 @@ import StatusCard from './components/StatusCard';
 import News from './components/NewsCard';
 import Message from './components/MessageCard';
 import Sidebar from "./components/Sidebar";
-import { CONTACT, NEWS } from "../utils/Url";
+import { CONTACT, SERVICE } from "../utils/Url";
 import { getToken, logout } from '../utils/Auth';
 import axios from 'axios';
 

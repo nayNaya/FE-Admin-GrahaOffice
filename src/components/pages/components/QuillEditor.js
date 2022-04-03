@@ -4,7 +4,7 @@ import "react-quill/dist/quill.snow.css";
 import Video from "../../../assets/img/play-button.png";
 import File from "../../../assets/img/file.png";
 import Image from "../../../assets/img/image.png";
-import { NEWS } from "../../utils/Url";
+import { SERVICE } from "../../utils/Url";
 import { getToken } from '../../utils/Auth';
 
 import axios from 'axios';

@@ -28,11 +28,11 @@ const Login = () => {
   }, [email, password]);
 
   const _onSubmit = () => {
-    axios
-        .post(USER + "/api/login", {
-            email: email,
-            password: password
-        })
+    console.log(email, password);
+    axios.post(USER + '/api/login', {
+      email: email,
+      password: password,
+    })
         .then((res) => {
             console.log("sukses bro");
             console.log(res.data);

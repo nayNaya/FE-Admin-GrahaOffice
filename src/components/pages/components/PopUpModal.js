@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import Button from "@material-tailwind/react/Button";
-import { NEWS, CONTACT  } from "../../utils/Url";
+import { SERVICE, CONTACT  } from "../../utils/Url";
 import { getToken, logout } from '../../utils/Auth';
 import axios from 'axios';
 

@@ -2,5 +2,5 @@
 export const BASE_URL = `http://127.0.0.1:8000`;
 
 export const USER = `${BASE_URL}`;
-export const CONTACT = `${BASE_URL}/contact/`;
-export const NEWS = `${BASE_URL}/newspost/`;
+export const CONTACT = `${BASE_URL}`;
+export const SERVICE = `${BASE_URL}`;
